@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header />
-    <Home msg="Art"/>
+    <Home msg="Art Here"/>
   </div>
 </template>
 
@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
