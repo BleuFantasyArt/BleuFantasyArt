@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <Home msg="Bleu Fantasy Art"/>
+    <Header />
+    <Home msg="Art"/>
   </div>
 </template>
 
 <script>
 import Home from './components/Home.vue'
+import Header from './components/Header'
 
 export default {
   name: 'app',
   components: {
-    Home
+    Home,
+    Header
   }
 }
 </script>
@@ -23,6 +25,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
