@@ -1,19 +1,21 @@
 <template>
   <div id="app">
     <Header />
-    <Home msg="Art Here"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Home from './components/Home.vue'
 import Header from './components/Header'
+import MainArt from './components/MainArt'
 
 export default {
   name: 'app',
   components: {
     Home,
-    Header
+    Header,
+    MainArt
   }
 }
 </script>
